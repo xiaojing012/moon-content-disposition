@@ -53,7 +53,7 @@ test "the library version is a single semantic version string" {
   assert_true(v.contains("."))
   // The single source of truth for the module version lives in moon.mod as
   // the same literal; library_version() is what the CLI reports.
-  assert_true(v == "0.1.0-dev")
+  assert_true(v == "0.1.0")
 }
 
 test "the corpus of explicit cases all parse deterministically" {

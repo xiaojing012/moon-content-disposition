@@ -40,7 +40,7 @@ Section 7 security concerns before a filename ever reaches a filesystem.
 - **Bounded resource use.** Seven independent `Limits` (input bytes, parameter
   count, value bytes, …) guarantee that no parse can exhaust memory, loop
   forever, or silently truncate.
-- **Portable.** The same code builds and passes 326 tests on the `native`,
+- **Portable.** The same code builds and passes 327 tests on the `native`,
   `js` and `wasm-gc` targets. Includes a JSON-emitting CLI (`disposition-tool`)
   and six runnable examples.
 
@@ -175,7 +175,7 @@ invariants, 600 canonicalisation cases). See [docs/testing.md](docs/testing.md).
 ## Versioning
 
 The single source of truth for the version is `library_version()` in
-[model.mbt](model.mbt); `moon.mod` mirrors it. Current version: **0.1.0-dev**.
+[model.mbt](model.mbt); `moon.mod` mirrors it. Current version: **0.1.0**.
 
 ## License
 

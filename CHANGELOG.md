@@ -4,9 +4,9 @@ All notable changes to `moon-content-disposition` are recorded here. The
 version is kept in one place: `library_version()` in `model.mbt`, mirrored by
 `moon.mod`.
 
-## [0.1.0-dev] — local development build
+## [0.1.0] — Initial release
 
-First local development build. Everything below is implemented, tested, and
+First release. Everything below is implemented, tested, and
 verified on the `native`, `js` and `wasm-gc` targets (327 tests, 25 files).
 
 ### Added — parsing
@@ -75,7 +75,7 @@ verified on the `native`, `js` and `wasm-gc` targets (327 tests, 25 files).
 
 ### Notes
 
-- Local development build. Not yet published to mooncakes.io. Hosted at
+- Initial release. Hosted at
   <https://github.com/xiaojing012/moon-content-disposition>. No affiliation is
   claimed with any organisation.
 - This build targets MoonBit `0.1.20260713`.

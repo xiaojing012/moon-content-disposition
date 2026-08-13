@@ -1,11 +1,9 @@
 # Contributing
 
-Thank you for considering contributing to `moon-content-disposition`. This
-project is currently a **local development build**: it is not published, and
-final ownership and publishing decisions are deferred. Until those are made,
-contributions are welcome as local work, code review, and tests; please do not
-open pull requests against a remote you do not control, and do not publish the
-package.
+Thank you for considering contributing to `moon-content-disposition`. The
+project is published under `xiaojing012/moon-content-disposition` and hosted
+at <https://github.com/xiaojing012/moon-content-disposition>. Contributions
+are welcome as issues, pull requests, code review, and tests.
 
 ## Ground rules
 
