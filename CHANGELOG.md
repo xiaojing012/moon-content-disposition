@@ -75,6 +75,7 @@ verified on the `native`, `js` and `wasm-gc` targets (327 tests, 25 files).
 
 ### Notes
 
-- Local development build only. Not published; final ownership and publishing
-  decisions are deferred. No affiliation is claimed with any organisation.
+- Local development build. Not yet published to mooncakes.io. Hosted at
+  <https://github.com/xiaojing012/moon-content-disposition>. No affiliation is
+  claimed with any organisation.
 - This build targets MoonBit `0.1.20260713`.
