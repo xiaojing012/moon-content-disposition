@@ -2,7 +2,7 @@
 
 test "version command" {
   let out = run_cli(["version"])
-  inspect(out, content="{\"ok\":true,\"command\":\"version\",\"version\":\"0.1.0\"}")
+  inspect(out, content="{\"ok\":true,\"command\":\"version\",\"version\":\"0.1.1\"}")
 }
 
 test "help command lists the eleven commands" {
@@ -166,5 +166,5 @@ test "profiles command" {
 
 test "commands are case-insensitive" {
   let out = run_cli(["VERSION"])
-  assert_true(out.contains("\"version\":\"0.1.0\""))
+  assert_true(out.contains("\"version\":\"0.1.1\""))
 }

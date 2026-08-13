@@ -4,6 +4,13 @@ All notable changes to `moon-content-disposition` are recorded here. The
 version is kept in one place: `library_version()` in `model.mbt`, mirrored by
 `moon.mod`.
 
+## [0.1.1] — 2026-08-13
+
+### Changed
+
+- Add `repository` field to `moon.mod` so the mooncakes.io page links back to
+  the GitHub source.
+
 ## [0.1.0] — Initial release
 
 First release. Everything below is implemented, tested, and

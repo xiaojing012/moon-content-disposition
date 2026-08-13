@@ -80,7 +80,7 @@ pub struct ContentDisposition {
 /// reporting, the CLI and the module metadata. Kept in one place so the
 /// final maintainer can update it (together with `moon.mod`) in one step.
 pub fn library_version() -> String {
-  "0.1.0"
+  "0.1.1"
 }
 
 ///|

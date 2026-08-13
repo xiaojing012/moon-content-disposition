@@ -120,7 +120,7 @@ $ moon run cmd/disposition-tool -- profiles
 
 ```text
 $ moon run cmd/disposition-tool -- version
-{"ok":true,"command":"version","version":"0.1.0"}
+{"ok":true,"command":"version","version":"0.1.1"}
 
 $ moon run cmd/disposition-tool -- help
 {"ok":true,"command":"help","commands":["parse","serialize","canonicalize","resolve","sanitize","generate","audit","limits","profiles","version","help"],...}

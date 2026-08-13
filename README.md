@@ -175,7 +175,7 @@ invariants, 600 canonicalisation cases). See [docs/testing.md](docs/testing.md).
 ## Versioning
 
 The single source of truth for the version is `library_version()` in
-[model.mbt](model.mbt); `moon.mod` mirrors it. Current version: **0.1.0**.
+[model.mbt](model.mbt); `moon.mod` mirrors it. Current version: **0.1.1**.
 
 ## License
 

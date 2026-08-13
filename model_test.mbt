@@ -4,7 +4,7 @@
 // expression position in MoonBit 0.1.2026).
 
 test "library version is a single source of truth" {
-  inspect(library_version(), content="0.1.0")
+  inspect(library_version(), content="0.1.1")
 }
 
 test "disposition type lower names" {

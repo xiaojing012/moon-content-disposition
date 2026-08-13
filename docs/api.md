@@ -20,7 +20,7 @@ raises and nothing unwraps at a public boundary.
 
 | Signature | Notes |
 | --- | --- |
-| `library_version() -> String` | The single source of truth for the version (`"0.1.0"`). |
+| `library_version() -> String` | The single source of truth for the version (`"0.1.1"`). |
 | `extended_value(charset, language, value) -> ExtendedValue` | Constructor. |
 | `disposition_parameter(name, value) -> DispositionParameter` | Constructor. |
 | `content_disposition(disposition_type) -> ContentDisposition` | Constructor, no parameters, no raw type. |
