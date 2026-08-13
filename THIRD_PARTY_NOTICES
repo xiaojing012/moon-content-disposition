@@ -10,6 +10,10 @@ code, and is not distributed with this package.
   Hypertext Transfer Protocol (HTTP)* (J. Reschke, 2011). Grammar
   (§4.2), filename precedence (§4.3), and the security considerations (§7)
   implemented throughout this library.
+- **RFC 5987** — *Character Set and Language Encoding for Hypertext Transfer
+  Protocol (HTTP) Header Field Parameters* (J. Reschke, 2010). The original
+  `ext-value` proposal that RFC 8187 obsoletes; legacy clients implementing
+  `filename*` per RFC 5987 are parsed identically.
 - **RFC 8187** — *Indicating Character Encoding and Language for HTTP Header
   Field Parameters* (J. Reschke, 2017). The `ext-value` grammar, charset
   handling and producer requirement implemented by the `filename*` support.
