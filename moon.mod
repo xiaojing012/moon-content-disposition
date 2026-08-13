@@ -6,6 +6,8 @@ readme = "README.md"
 
 license = "Apache-2.0"
 
+repository = "https://github.com/xiaojing012/moon-content-disposition"
+
 description = "RFC 6266 Content-Disposition parser, serializer, filename resolver and safety audit toolkit for MoonBit."
 
 keywords = [
