@@ -2,7 +2,7 @@
 
 This guide walks through the five operations every Content-Disposition caller
 needs, with the recommended code shape. All examples use the library aliased as
-`@cd` (the import `"localdev/moon-content-disposition" @cd`).
+`@cd` (the import `"xiaojing012/moon-content-disposition" @cd`).
 
 ## 1. Parse a header value
 

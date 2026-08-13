@@ -1,6 +1,6 @@
 # Architecture
 
-`moon-content-disposition` is a single library package (`localdev/moon-content-disposition`)
+`moon-content-disposition` is a single library package (`xiaojing012/moon-content-disposition`)
 plus two thin consumers: the `disposition-tool` command-line executable and six
 runnable examples. All parsing, serialisation, resolution and auditing logic
 lives in the library so that every byte of behaviour is unit-testable from the

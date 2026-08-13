@@ -1,4 +1,4 @@
-name = "localdev/moon-content-disposition"
+name = "xiaojing012/moon-content-disposition"
 
 version = "0.1.0-dev"
 

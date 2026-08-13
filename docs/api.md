@@ -1,6 +1,6 @@
 # API reference
 
-Every public symbol lives in the library package `localdev/moon-content-disposition`.
+Every public symbol lives in the library package `xiaojing012/moon-content-disposition`.
 All public functions that can fail return `Result[T, DispositionError]`; nothing
 raises and nothing unwraps at a public boundary.
 
