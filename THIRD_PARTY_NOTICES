@@ -1,0 +1,35 @@
+# Third-party notices
+
+This project implements the grammars and rules described by several IETF RFC
+documents. The RFC text itself is a set of specifications, not vendored source
+code, and is not distributed with this package.
+
+## Standards implemented
+
+- **RFC 6266** — *Use of the Content-Disposition Header Field in the
+  Hypertext Transfer Protocol (HTTP)* (J. Reschke, 2011). Grammar
+  (§4.2), filename precedence (§4.3), and the security considerations (§7)
+  implemented throughout this library.
+- **RFC 8187** — *Indicating Character Encoding and Language for HTTP Header
+  Field Parameters* (J. Reschke, 2017). The `ext-value` grammar, charset
+  handling and producer requirement implemented by the `filename*` support.
+- **RFC 7230** — *Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and
+  Routing* (R. Fielding, J. Reschke, 2014). The `token`, `tchar`, `quoted-string`,
+  `qdtext`, `quoted-pair` and OWS definitions used by the byte tables.
+- **RFC 5646** — *Tags for Identifying Languages* (A. Phillips, M. Davis,
+  2009). The `language-tag` shape enforced for extended-value language tags.
+- **RFC 3629** — *UTF-8, a transformation format of ISO 10646* (F. Yergeau,
+  2003). The UTF-8 decoding used for extended values.
+
+## Dependencies
+
+The library depends only on the MoonBit standard library:
+`moonbitlang/core` (and its `moonbitlang/core/encoding/utf8` and
+`moonbitlang/core/env` components used by the CLI and examples). No third-party
+MoonBit packages are used.
+
+## License
+
+`moon-content-disposition` is licensed under the Apache License, Version 2.0.
+See [LICENSE](LICENSE). This file exists to record the third-party
+considerations above; nothing is bundled under a conflicting license.

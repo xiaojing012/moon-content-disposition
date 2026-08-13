@@ -1,0 +1,6 @@
+import {
+  "moonbitlang/core/env",
+  "localdev/moon-content-disposition" @cd,
+}
+
+pkgtype(kind: "executable")
